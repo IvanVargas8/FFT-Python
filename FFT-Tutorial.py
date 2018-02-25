@@ -22,7 +22,7 @@ import matplotlib.pyplot as plt
 
 # <codecell>
 
-%pylab inline --no-import-all
+#%pylab inline --no-import-all
 
 # <headingcell level=2>
 
@@ -293,7 +293,7 @@ plt.savefig('FFT.png',bbox_inches='tight', dpi=150, transparent=True)
 
 # <codecell>
 
-!wget -O 'Vertikale_Netzlast_2013.csv' 'http://www.50hertz.com/transmission/files/sync/Netzkennzahlen/Netzlast/ArchivCSV/Vertikale_Netzlast_2013.csv'
+#!wget -O 'Vertikale_Netzlast_2013.csv' 'http://www.50hertz.com/transmission/files/sync/Netzkennzahlen/Netzlast/ArchivCSV/Vertikale_Netzlast_2013.csv'
 
 # <codecell>
 
